@@ -14,11 +14,11 @@ function App() {
   const [edges, setEdges] = useState([]);
   const [showInfo, setShowInfo] = useState(null);
 
-  function makeAllEdges(songs) {
+  function makeAllEdges(songs, threshold) {
     const edges = [];
     for (let i = 0; i < songs.length - 1; i++) {
       for (let j = i + 1; j < songs.length; j++) {
-        if (songs[i]["similarity"][songs[j]["id"]] <= 0.95) {
+        if (songs[i]["similarity"][songs[j]["id"]] <= threshold) {
           continue;
         }
         const obj = {
@@ -68,11 +68,9 @@ function App() {
         simulation.stop();
       };
     })();
-  }, []);
+  }, [threshold]);
 
   const color = d3.scaleOrdinal(d3.schemePaired);
-
-  console.log(albums);
 
   return (
     <>
@@ -102,6 +100,24 @@ function App() {
             の楽曲の類似度を表しています。
             類似度の高い楽曲はエッジで結ばれています。
             ノードをクリックすると楽曲ページを別タブで開くことができます。
+          </div>
+          <div
+            className="content"
+            style={{
+              display: "flex",
+              justifyContent: "center",
+            }}
+          >
+            類似度の閾値を選択してください。
+            <div className="select is-link">
+              <select onChange={(e) => setThreshold(e.target.value)}>
+                <option value={0.95}>0.95</option>
+                <option value={0.925}>0.925</option>
+                <option value={0.9}>0.9</option>
+                <option value={0.875}>0.875</option>
+                <option value={0.85}>0.85</option>
+              </select>
+            </div>
           </div>
           <div
             className="content"
