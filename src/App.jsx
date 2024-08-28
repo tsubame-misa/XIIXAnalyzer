@@ -85,10 +85,13 @@ function App() {
       </header>
       <main>
         <section className="section">
-          <div className="content" style={{
+          <div
+            className="content"
+            style={{
               display: "flex",
               justifyContent: "center",
-            }}>
+            }}
+          >
             <a
               href="https://xiix-web.com/"
               target="_blank"
