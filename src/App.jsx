@@ -175,7 +175,6 @@ function App() {
               </svg>
 
               <svg height={600} width={300}>
-                <rect width={600} height={300} rx={14} fill={"#FFFFFF"} />
                 {albums?.map((album, idx) => {
                   console.log(idx, Math.floor(idx / 2));
                   return (
