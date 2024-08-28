@@ -118,7 +118,7 @@ function App() {
                     onMouseLeave={() => {
                       setShowInfo(null);
                     }}
-                    onClick={()}
+                    // onClick={()}
                   />
                 );
               })}
