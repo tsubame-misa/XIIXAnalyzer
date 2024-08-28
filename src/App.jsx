@@ -85,8 +85,18 @@ function App() {
       </header>
       <main>
         <section className="section">
-          <div className="content">
-            XIIXの楽曲の類似度を表しています。
+          <div className="content" style={{
+              display: "flex",
+              justifyContent: "center",
+            }}>
+            <a
+              href="https://xiix-web.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              XIIX
+            </a>
+            の楽曲の類似度を表しています。
             類似度の高い楽曲はエッジで結ばれています。
             ノードをクリックすると楽曲ページを別タブで開くことができます。
           </div>
@@ -94,7 +104,7 @@ function App() {
             className="content"
             style={{
               display: "flex",
-              justifyContent:"center"
+              justifyContent: "center",
             }}
           >
             <div>
@@ -138,7 +148,13 @@ function App() {
                       onMouseLeave={() => {
                         setShowInfo(null);
                       }}
-                      onClick={() => window.open(node.external_urls, "_blank")}
+                      onClick={() =>
+                        window.open(
+                          node.external_urls,
+                          "_blank",
+                          "noopener noreferrer"
+                        )
+                      }
                     />
                   );
                 })}
