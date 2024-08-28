@@ -106,10 +106,11 @@ function App() {
             style={{
               display: "flex",
               justifyContent: "center",
+              alignItems:"center"
             }}
           >
             類似度の閾値を選択してください。
-            <div className="select is-link">
+            <div className="select is-dark">
               <select onChange={(e) => setThreshold(e.target.value)}>
                 <option value={0.95}>0.95</option>
                 <option value={0.925}>0.925</option>
