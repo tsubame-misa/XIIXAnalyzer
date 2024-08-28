@@ -64,6 +64,8 @@ function App() {
     })();
   }, []);
 
+  const color = d3.scaleOrdinal(d3.schemeCategory10);
+
   return (
     <>
       <header className="hero is-dark is-bold">
@@ -75,11 +77,15 @@ function App() {
       </header>
       <main>
         <section className="section">
-          <div className="content" >
+          <div className="content">
             XIIXの楽曲の類似度を表しています。
             類似度の高い楽曲はエッジで結ばれています。
+            ノードをクリックすると楽曲ページを別タブで開くことができます。
           </div>
-          <div className="content" style={{ "display":  "flex" , "justifyContent": "center" }}>
+          <div
+            className="content"
+            style={{ display: "flex", justifyContent: "center" }}
+          >
             <svg height={600} width={600}>
               <rect width={600} height={800} rx={14} fill={"#272b4d"} />
               {edges.map((link) => {
@@ -101,32 +107,36 @@ function App() {
                 );
               })}
               {songs.map((node) => {
-                // console.log("node", node.name, node.x);
                 return (
                   <circle
                     key={node.id}
                     r={RADIUS}
                     stroke="none"
                     strokeWidth={1}
-                    fill="pink"
+                    fill={color(node.album_name)}
                     cx={node.x}
                     cy={node.y}
                     onMouseOver={() => {
                       console.log("click", node.name);
-                      setShowInfo({ name: node.name, url: node.external_urls });
+                      setShowInfo({
+                        name: node.name,
+                        album_name: node.album_name,
+                      });
                     }}
                     onMouseLeave={() => {
                       setShowInfo(null);
                     }}
-                    // onClick={()}
+                    onClick={() => window.open(node.external_urls, "_blank")}
                   />
                 );
               })}
               {showInfo && (
                 <g>
-                  <rect width={600} height={50} rx={14} fill={"#FFFFFF91"} />
-                  <a href={showInfo.url}></a>
+                  <rect width={600} height={75} rx={14} fill={"#FFFFFF91"} />
                   <text x="10" y="30" fontSize="20" fill="black">
+                    アルバム名：{showInfo.album_name}
+                  </text>
+                  <text x="10" y="60" fontSize="20" fill="black">
                     楽曲名：{showInfo.name}
                   </text>
                 </g>

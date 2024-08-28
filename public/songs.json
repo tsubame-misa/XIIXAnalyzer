@@ -1,5 +1,7 @@
 [
   {
+    "album_id": "5Pnf7XLao6AROmSuWqIXCS",
+    "album_name": "XIIX",
     "id": "5sdjZMjPCBFAlxf3wIhx6I",
     "name": "魔法の鏡",
     "preview_url": "https://p.scdn.co/mp3-preview/cc91042e1599226850ceb83d9afa6a752a08fc1c?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -67,6 +69,8 @@
     }
   },
   {
+    "album_id": "5Pnf7XLao6AROmSuWqIXCS",
+    "album_name": "XIIX",
     "id": "7lOG0YyJVsuCd6AwCluepJ",
     "name": "月と蝶",
     "preview_url": "https://p.scdn.co/mp3-preview/a5bcce609f6e2a53cbb1737893f64ba92fa21281?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -134,73 +138,8 @@
     }
   },
   {
-    "id": "4hlXWrabczCCihIfdu0HXI",
-    "name": "スプレー",
-    "preview_url": "https://p.scdn.co/mp3-preview/89c02340f0e3065e0d5a6b50c42de4061238e5d7?cid=789cbc4009cd4b20b0cded0ef827b2cc",
-    "external_urls": "https://open.spotify.com/track/4hlXWrabczCCihIfdu0HXI",
-    "img": "https://i.scdn.co/image/ab67616d0000b273f8b19d241c9e405e0e8d6991",
-    "audio_features": {
-      "danceability": 0.755,
-      "energy": 0.583,
-      "key": 0,
-      "loudness": -6.426,
-      "mode": 1,
-      "speechiness": 0.0415,
-      "acousticness": 0.451,
-      "instrumentalness": 0,
-      "liveness": 0.0598,
-      "valence": 0.845,
-      "tempo": 95.967,
-      "time_signature": 4
-    },
-    "similarity": {
-      "5sdjZMjPCBFAlxf3wIhx6I": 0.8346490488596238,
-      "7lOG0YyJVsuCd6AwCluepJ": 0.753017413100431,
-      "2FEFsFNzb0wrqNm4cWl7L9": 0.917073251355808,
-      "7tUqn6cTN2BdUpvjrcPPRk": 0.93743513120244,
-      "3KMMXYy9AtF0g1G1kOrSxZ": 0.895879897910001,
-      "2Q74eZnPKWymY7sBB6D8Iv": 0.7895294218962088,
-      "4AmaWGSQBHEVE8YlRCUVjz": 0.7381657714437844,
-      "00FQXsHzFtFZktBwJd3aPD": 0.6995926127880603,
-      "2O5ZMfWFGgtU6LAFkQAcHt": 0.9219304213301112,
-      "4JrUTZAMSXoSVlstQyaUPl": 0.9039667103185189,
-      "29KRks7DzQTdx7MnVeAgcu": 0.9437117498666728,
-      "7alTrvP5qjYSHYAiwEleem": 0.9759606669830199,
-      "4KLrFz40LRgwQUDNfW4WMK": 0.8309461562498764,
-      "6axPqIl11eWokWkD47xPSs": 0.9078321499831717,
-      "1dQ58pRYLkDqIodLSYiYse": 0.907361322016166,
-      "2DW4hap0XvnB9cysY8Ob0W": 0.785122022587608,
-      "0Q8q1naoaqJviTk6wLEq2y": 0.8629500607382323,
-      "7KWMkJqX8Wj2vvtnIlmAua": 0.938794604963504,
-      "75iINRGNxvbaNhfm6cm2w0": 0.8824343790743254,
-      "3SLzjz1deBRIGGPoW5PdmT": 0.8348789676666912,
-      "4MToZ0z5ePh2soOi7gt01f": 0.7413578830596709,
-      "2nP7FP9ztEhp2RVZuQToSe": 0.7705651342323881,
-      "56AbgLPBLFc6MfmIZEWzFH": 0.8828619187868776,
-      "4xn9dt2U6YWOcpi3gixkFI": 0.8858414038841619,
-      "3RXezEMKWrg1SRG2Um3sGj": 0.6773439674941912,
-      "3woqS0FuR2vHwDFhjuEbgv": 0.704518250969372,
-      "2fFNNNMMsZY2e9WvW0qnZN": 0.8350299963730115,
-      "4q3oJZPFRc8kQGtPOVWHK4": 0.9847559683969975,
-      "6UGmILm8rAlNV6Q0GlCS8X": 0.836285999300603,
-      "4TWvW0JAJOFG1A8XqUPlh9": 0.7449788776789161,
-      "3NRoaDsOGaP4oE0jUhTVg9": 0.6905651471238206,
-      "75W7HntQ8nBShFZwCSH6oy": 0.9562741260010141,
-      "7gCDJ4nSuaxwYkaliOKlh8": 0.7128928687303482,
-      "4JuFspWV4xxsrgPjdWPX1o": 0.936535588143001,
-      "3lWeUSAwFqNaagP5zOUFH2": 0.6019670394872251,
-      "2JuDljfyH2YCHgOHZR5E8s": 0.5858446922127737,
-      "4GOX2sBKwtZ5gGznFKoKcG": 0.8425751116198364,
-      "6RDzhx68wEgTOo0ev1FRKP": 0.9467217389120958,
-      "4UHWZrewOcXnaSYFQ5rGWe": 0.792489808318906,
-      "5Qu6FzpZLca4ZkvuayMyw1": 1.0000000000000004,
-      "12BXHg5wTtOW9VEIgtyZ7z": 0.7895243806100092,
-      "1yi4qAnqrjF4SvEGdCseWg": 0.7382019599766381,
-      "0SgnOGASy4jd5dM2LpHNCK": 0.8824343790743254,
-      "3q0vhkY1bLCHTHHfkhRoJk": 0.8309461562498764
-    }
-  },
-  {
+    "album_id": "5Pnf7XLao6AROmSuWqIXCS",
+    "album_name": "XIIX",
     "id": "2FEFsFNzb0wrqNm4cWl7L9",
     "name": "次の朝へ",
     "preview_url": "https://p.scdn.co/mp3-preview/fb06f37ad72d82239697bb5c8c408c26649cf51a?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -268,6 +207,8 @@
     }
   },
   {
+    "album_id": "5Pnf7XLao6AROmSuWqIXCS",
+    "album_name": "XIIX",
     "id": "7tUqn6cTN2BdUpvjrcPPRk",
     "name": "シトラス",
     "preview_url": "https://p.scdn.co/mp3-preview/eb507bf6b707dc208eee8b9970e7c851775ae8ec?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -335,6 +276,8 @@
     }
   },
   {
+    "album_id": "5Pnf7XLao6AROmSuWqIXCS",
+    "album_name": "XIIX",
     "id": "3KMMXYy9AtF0g1G1kOrSxZ",
     "name": "あれ",
     "preview_url": "https://p.scdn.co/mp3-preview/65ab00dae02464f0ce7ea4cae2e92ee139b7e939?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -402,140 +345,8 @@
     }
   },
   {
-    "id": "2Q74eZnPKWymY7sBB6D8Iv",
-    "name": "まばたきの途中",
-    "preview_url": "https://p.scdn.co/mp3-preview/fc4dbd4db1b56d59bbb2a2eaf757b695bd68fdc4?cid=789cbc4009cd4b20b0cded0ef827b2cc",
-    "external_urls": "https://open.spotify.com/track/2Q74eZnPKWymY7sBB6D8Iv",
-    "img": "https://i.scdn.co/image/ab67616d0000b273f8b19d241c9e405e0e8d6991",
-    "audio_features": {
-      "danceability": 0.596,
-      "energy": 0.482,
-      "key": 7,
-      "loudness": -6.674,
-      "mode": 0,
-      "speechiness": 0.0494,
-      "acousticness": 0.556,
-      "instrumentalness": 0.000148,
-      "liveness": 0.0918,
-      "valence": 0.38,
-      "tempo": 80.929,
-      "time_signature": 4
-    },
-    "similarity": {
-      "5sdjZMjPCBFAlxf3wIhx6I": 0.7926619721191853,
-      "7lOG0YyJVsuCd6AwCluepJ": 0.8731872834848816,
-      "4hlXWrabczCCihIfdu0HXI": 0.7895294218962088,
-      "2FEFsFNzb0wrqNm4cWl7L9": 0.8511729901310697,
-      "7tUqn6cTN2BdUpvjrcPPRk": 0.7285083532334042,
-      "3KMMXYy9AtF0g1G1kOrSxZ": 0.7213815634121044,
-      "4AmaWGSQBHEVE8YlRCUVjz": 0.8497800822750076,
-      "00FQXsHzFtFZktBwJd3aPD": 0.858035015724591,
-      "2O5ZMfWFGgtU6LAFkQAcHt": 0.8482816079609178,
-      "4JrUTZAMSXoSVlstQyaUPl": 0.8027931840981075,
-      "29KRks7DzQTdx7MnVeAgcu": 0.7591273895322691,
-      "7alTrvP5qjYSHYAiwEleem": 0.8090808388058189,
-      "4KLrFz40LRgwQUDNfW4WMK": 0.8329595929119886,
-      "6axPqIl11eWokWkD47xPSs": 0.7627479286614326,
-      "1dQ58pRYLkDqIodLSYiYse": 0.8470574427329658,
-      "2DW4hap0XvnB9cysY8Ob0W": 0.9011434046573218,
-      "0Q8q1naoaqJviTk6wLEq2y": 0.7698631042401881,
-      "7KWMkJqX8Wj2vvtnIlmAua": 0.7280009939698453,
-      "75iINRGNxvbaNhfm6cm2w0": 0.8460746581161974,
-      "3SLzjz1deBRIGGPoW5PdmT": 0.7697680853359863,
-      "4MToZ0z5ePh2soOi7gt01f": 0.9040443554124564,
-      "2nP7FP9ztEhp2RVZuQToSe": 0.7983504094330771,
-      "56AbgLPBLFc6MfmIZEWzFH": 0.7365602805995576,
-      "4xn9dt2U6YWOcpi3gixkFI": 0.7988828756374536,
-      "3RXezEMKWrg1SRG2Um3sGj": 0.6129885609250499,
-      "3woqS0FuR2vHwDFhjuEbgv": 0.8536402666245813,
-      "2fFNNNMMsZY2e9WvW0qnZN": 0.8567735790902005,
-      "4q3oJZPFRc8kQGtPOVWHK4": 0.814251465032745,
-      "6UGmILm8rAlNV6Q0GlCS8X": 0.7405911845052501,
-      "4TWvW0JAJOFG1A8XqUPlh9": 0.8464775064911535,
-      "3NRoaDsOGaP4oE0jUhTVg9": 0.6573971672550003,
-      "75W7HntQ8nBShFZwCSH6oy": 0.7986625997586972,
-      "7gCDJ4nSuaxwYkaliOKlh8": 0.8421905805928487,
-      "4JuFspWV4xxsrgPjdWPX1o": 0.7323610386951804,
-      "3lWeUSAwFqNaagP5zOUFH2": 0.5660106978117735,
-      "2JuDljfyH2YCHgOHZR5E8s": 0.6592132717775434,
-      "4GOX2sBKwtZ5gGznFKoKcG": 0.7528133260006952,
-      "6RDzhx68wEgTOo0ev1FRKP": 0.7698901815261385,
-      "4UHWZrewOcXnaSYFQ5rGWe": 0.7398829606916549,
-      "5Qu6FzpZLca4ZkvuayMyw1": 0.7895294218962088,
-      "12BXHg5wTtOW9VEIgtyZ7z": 0.9999993862656789,
-      "1yi4qAnqrjF4SvEGdCseWg": 0.849794821308018,
-      "0SgnOGASy4jd5dM2LpHNCK": 0.8460746581161974,
-      "3q0vhkY1bLCHTHHfkhRoJk": 0.8329595929119886
-    }
-  },
-  {
-    "id": "4AmaWGSQBHEVE8YlRCUVjz",
-    "name": "アカシ",
-    "preview_url": "https://p.scdn.co/mp3-preview/532c8d4c3e100e3e5b3f2b30d3d1d900ceb2475a?cid=789cbc4009cd4b20b0cded0ef827b2cc",
-    "external_urls": "https://open.spotify.com/track/4AmaWGSQBHEVE8YlRCUVjz",
-    "img": "https://i.scdn.co/image/ab67616d0000b273f8b19d241c9e405e0e8d6991",
-    "audio_features": {
-      "danceability": 0.563,
-      "energy": 0.819,
-      "key": 11,
-      "loudness": -4.83,
-      "mode": 0,
-      "speechiness": 0.0993,
-      "acousticness": 0.0426,
-      "instrumentalness": 0,
-      "liveness": 0.17,
-      "valence": 0.804,
-      "tempo": 125.957,
-      "time_signature": 4
-    },
-    "similarity": {
-      "5sdjZMjPCBFAlxf3wIhx6I": 0.8608083455237739,
-      "7lOG0YyJVsuCd6AwCluepJ": 0.9860507405641245,
-      "4hlXWrabczCCihIfdu0HXI": 0.7381657714437844,
-      "2FEFsFNzb0wrqNm4cWl7L9": 0.8184147351627711,
-      "7tUqn6cTN2BdUpvjrcPPRk": 0.7825409465413943,
-      "3KMMXYy9AtF0g1G1kOrSxZ": 0.7770514046998251,
-      "2Q74eZnPKWymY7sBB6D8Iv": 0.8497800822750076,
-      "00FQXsHzFtFZktBwJd3aPD": 0.9748969924098163,
-      "2O5ZMfWFGgtU6LAFkQAcHt": 0.8322914502301745,
-      "4JrUTZAMSXoSVlstQyaUPl": 0.5634109242246752,
-      "29KRks7DzQTdx7MnVeAgcu": 0.8040979451869381,
-      "7alTrvP5qjYSHYAiwEleem": 0.7696039800600788,
-      "4KLrFz40LRgwQUDNfW4WMK": 0.8956833731786584,
-      "6axPqIl11eWokWkD47xPSs": 0.8248387007374338,
-      "1dQ58pRYLkDqIodLSYiYse": 0.8348631647812632,
-      "2DW4hap0XvnB9cysY8Ob0W": 0.9656401189166975,
-      "0Q8q1naoaqJviTk6wLEq2y": 0.8412092064179781,
-      "7KWMkJqX8Wj2vvtnIlmAua": 0.7898646782327474,
-      "75iINRGNxvbaNhfm6cm2w0": 0.8450225531599302,
-      "3SLzjz1deBRIGGPoW5PdmT": 0.8710918133434747,
-      "4MToZ0z5ePh2soOi7gt01f": 0.8941702695230855,
-      "2nP7FP9ztEhp2RVZuQToSe": 0.8537587861038297,
-      "56AbgLPBLFc6MfmIZEWzFH": 0.7862624555201365,
-      "4xn9dt2U6YWOcpi3gixkFI": 0.8637534084254443,
-      "3RXezEMKWrg1SRG2Um3sGj": 0.5967942789166099,
-      "3woqS0FuR2vHwDFhjuEbgv": 0.96066050530117,
-      "2fFNNNMMsZY2e9WvW0qnZN": 0.8700647191824199,
-      "4q3oJZPFRc8kQGtPOVWHK4": 0.7548640983878516,
-      "6UGmILm8rAlNV6Q0GlCS8X": 0.8750215029911003,
-      "4TWvW0JAJOFG1A8XqUPlh9": 0.9973896912864335,
-      "3NRoaDsOGaP4oE0jUhTVg9": 0.40742793270437383,
-      "75W7HntQ8nBShFZwCSH6oy": 0.6908951917511186,
-      "7gCDJ4nSuaxwYkaliOKlh8": 0.9443319481863081,
-      "4JuFspWV4xxsrgPjdWPX1o": 0.7788227054841846,
-      "3lWeUSAwFqNaagP5zOUFH2": 0.3059930020127207,
-      "2JuDljfyH2YCHgOHZR5E8s": 0.4410189185623229,
-      "4GOX2sBKwtZ5gGznFKoKcG": 0.8965663980002918,
-      "6RDzhx68wEgTOo0ev1FRKP": 0.8026655721827557,
-      "4UHWZrewOcXnaSYFQ5rGWe": 0.7809231286290083,
-      "5Qu6FzpZLca4ZkvuayMyw1": 0.7381657714437844,
-      "12BXHg5wTtOW9VEIgtyZ7z": 0.8497752840806438,
-      "1yi4qAnqrjF4SvEGdCseWg": 0.9999998287484251,
-      "0SgnOGASy4jd5dM2LpHNCK": 0.8450225531599302,
-      "3q0vhkY1bLCHTHHfkhRoJk": 0.8956833731786584
-    }
-  },
-  {
+    "album_id": "5Pnf7XLao6AROmSuWqIXCS",
+    "album_name": "XIIX",
     "id": "00FQXsHzFtFZktBwJd3aPD",
     "name": "正者の行進",
     "preview_url": "https://p.scdn.co/mp3-preview/9e132641e3dde54e505cea2015c5e2c6e9c71d31?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -603,6 +414,8 @@
     }
   },
   {
+    "album_id": "5Pnf7XLao6AROmSuWqIXCS",
+    "album_name": "XIIX",
     "id": "2O5ZMfWFGgtU6LAFkQAcHt",
     "name": "うらら",
     "preview_url": "https://p.scdn.co/mp3-preview/8d7a3c55c4a7f219932c93e0b1d641fb4f2a29e5?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -670,6 +483,8 @@
     }
   },
   {
+    "album_id": "5Pnf7XLao6AROmSuWqIXCS",
+    "album_name": "XIIX",
     "id": "4JrUTZAMSXoSVlstQyaUPl",
     "name": "White Song",
     "preview_url": "https://p.scdn.co/mp3-preview/0489264e58c78a430420ccc97a141b5b8621ee16?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -737,6 +552,8 @@
     }
   },
   {
+    "album_id": "5Pnf7XLao6AROmSuWqIXCS",
+    "album_name": "XIIX",
     "id": "29KRks7DzQTdx7MnVeAgcu",
     "name": "タイニーダンサー",
     "preview_url": "https://p.scdn.co/mp3-preview/972a365d1e1496682f73a4adc8ff20772e8f6a5d?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -804,6 +621,8 @@
     }
   },
   {
+    "album_id": "5Pnf7XLao6AROmSuWqIXCS",
+    "album_name": "XIIX",
     "id": "7alTrvP5qjYSHYAiwEleem",
     "name": "All Light",
     "preview_url": "https://p.scdn.co/mp3-preview/7cb61d98518a08599531367657cd1115ea2cd617?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -871,73 +690,8 @@
     }
   },
   {
-    "id": "4KLrFz40LRgwQUDNfW4WMK",
-    "name": "Halloween Knight",
-    "preview_url": "https://p.scdn.co/mp3-preview/8856a2859981aa591c29904b07c4b19ed526ed2f?cid=789cbc4009cd4b20b0cded0ef827b2cc",
-    "external_urls": "https://open.spotify.com/track/4KLrFz40LRgwQUDNfW4WMK",
-    "img": "https://i.scdn.co/image/ab67616d0000b2735092d1279f1c6bb39b9487b4",
-    "audio_features": {
-      "danceability": 0.528,
-      "energy": 0.746,
-      "key": 1,
-      "loudness": -5.028,
-      "mode": 0,
-      "speechiness": 0.0508,
-      "acousticness": 0.0083,
-      "instrumentalness": 0.00137,
-      "liveness": 0.072,
-      "valence": 0.674,
-      "tempo": 126.778,
-      "time_signature": 4
-    },
-    "similarity": {
-      "5sdjZMjPCBFAlxf3wIhx6I": 0.7527787856403824,
-      "7lOG0YyJVsuCd6AwCluepJ": 0.9053472802837759,
-      "4hlXWrabczCCihIfdu0HXI": 0.8309461562498764,
-      "2FEFsFNzb0wrqNm4cWl7L9": 0.8231329915366903,
-      "7tUqn6cTN2BdUpvjrcPPRk": 0.8670139347404725,
-      "3KMMXYy9AtF0g1G1kOrSxZ": 0.8706350033667556,
-      "2Q74eZnPKWymY7sBB6D8Iv": 0.8329595929119886,
-      "4AmaWGSQBHEVE8YlRCUVjz": 0.8956833731786584,
-      "00FQXsHzFtFZktBwJd3aPD": 0.8760423610144523,
-      "2O5ZMfWFGgtU6LAFkQAcHt": 0.8050511661882218,
-      "4JrUTZAMSXoSVlstQyaUPl": 0.663527256854436,
-      "29KRks7DzQTdx7MnVeAgcu": 0.8831788948061182,
-      "7alTrvP5qjYSHYAiwEleem": 0.8464807726880662,
-      "6axPqIl11eWokWkD47xPSs": 0.8635496062507579,
-      "1dQ58pRYLkDqIodLSYiYse": 0.8016121071373052,
-      "2DW4hap0XvnB9cysY8Ob0W": 0.9210750857498515,
-      "0Q8q1naoaqJviTk6wLEq2y": 0.8329151288113126,
-      "7KWMkJqX8Wj2vvtnIlmAua": 0.8928755405637899,
-      "75iINRGNxvbaNhfm6cm2w0": 0.8047321227034039,
-      "3SLzjz1deBRIGGPoW5PdmT": 0.8144701169491897,
-      "4MToZ0z5ePh2soOi7gt01f": 0.7827768920157192,
-      "2nP7FP9ztEhp2RVZuQToSe": 0.9575111315935844,
-      "56AbgLPBLFc6MfmIZEWzFH": 0.8744062805909911,
-      "4xn9dt2U6YWOcpi3gixkFI": 0.8235225181175809,
-      "3RXezEMKWrg1SRG2Um3sGj": 0.6531137979411972,
-      "3woqS0FuR2vHwDFhjuEbgv": 0.8741636338354125,
-      "2fFNNNMMsZY2e9WvW0qnZN": 0.9775392918366629,
-      "4q3oJZPFRc8kQGtPOVWHK4": 0.8491594656689934,
-      "6UGmILm8rAlNV6Q0GlCS8X": 0.8069330871526543,
-      "4TWvW0JAJOFG1A8XqUPlh9": 0.8943337316717024,
-      "3NRoaDsOGaP4oE0jUhTVg9": 0.4913098782125057,
-      "75W7HntQ8nBShFZwCSH6oy": 0.7549035931906792,
-      "7gCDJ4nSuaxwYkaliOKlh8": 0.9091608552906789,
-      "4JuFspWV4xxsrgPjdWPX1o": 0.8828143419769363,
-      "3lWeUSAwFqNaagP5zOUFH2": 0.386908185025571,
-      "2JuDljfyH2YCHgOHZR5E8s": 0.4405165477480054,
-      "4GOX2sBKwtZ5gGznFKoKcG": 0.7930848996730362,
-      "6RDzhx68wEgTOo0ev1FRKP": 0.8844005996467074,
-      "4UHWZrewOcXnaSYFQ5rGWe": 0.7425950171001132,
-      "5Qu6FzpZLca4ZkvuayMyw1": 0.8309461562498764,
-      "12BXHg5wTtOW9VEIgtyZ7z": 0.8330075677478406,
-      "1yi4qAnqrjF4SvEGdCseWg": 0.8957162992799613,
-      "0SgnOGASy4jd5dM2LpHNCK": 0.8047321227034039,
-      "3q0vhkY1bLCHTHHfkhRoJk": 1.0
-    }
-  },
-  {
+    "album_id": "29j4TJj2VgDIl7CfxNBZ8I",
+    "album_name": "USELESS",
     "id": "6axPqIl11eWokWkD47xPSs",
     "name": "No More",
     "preview_url": "https://p.scdn.co/mp3-preview/b5dff06186f30ac06a70ef731b669ae157018015?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1005,6 +759,8 @@
     }
   },
   {
+    "album_id": "29j4TJj2VgDIl7CfxNBZ8I",
+    "album_name": "USELESS",
     "id": "1dQ58pRYLkDqIodLSYiYse",
     "name": "フラッシュバック",
     "preview_url": "https://p.scdn.co/mp3-preview/12510020da1af26335da662e8e66966bc77214ab?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1072,6 +828,8 @@
     }
   },
   {
+    "album_id": "29j4TJj2VgDIl7CfxNBZ8I",
+    "album_name": "USELESS",
     "id": "2DW4hap0XvnB9cysY8Ob0W",
     "name": "ブルー",
     "preview_url": "https://p.scdn.co/mp3-preview/61ad639e47d35a80408a0abe4384525a9c829aaf?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1139,6 +897,8 @@
     }
   },
   {
+    "album_id": "29j4TJj2VgDIl7CfxNBZ8I",
+    "album_name": "USELESS",
     "id": "0Q8q1naoaqJviTk6wLEq2y",
     "name": "Vivid Noise",
     "preview_url": "https://p.scdn.co/mp3-preview/03c6f231a6523501b3244326f8d630a13a875c64?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1206,6 +966,8 @@
     }
   },
   {
+    "album_id": "29j4TJj2VgDIl7CfxNBZ8I",
+    "album_name": "USELESS",
     "id": "7KWMkJqX8Wj2vvtnIlmAua",
     "name": "ZZZZZ",
     "preview_url": "https://p.scdn.co/mp3-preview/d363402d8c71d5dcd088ccba78986a5afb1d5437?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1273,73 +1035,8 @@
     }
   },
   {
-    "id": "75iINRGNxvbaNhfm6cm2w0",
-    "name": "おもちゃの街",
-    "preview_url": "https://p.scdn.co/mp3-preview/ebc37fed4f22fc95530e9b80dc8c30c88d36f3e4?cid=789cbc4009cd4b20b0cded0ef827b2cc",
-    "external_urls": "https://open.spotify.com/track/75iINRGNxvbaNhfm6cm2w0",
-    "img": "https://i.scdn.co/image/ab67616d0000b2735092d1279f1c6bb39b9487b4",
-    "audio_features": {
-      "danceability": 0.592,
-      "energy": 0.814,
-      "key": 8,
-      "loudness": -3.777,
-      "mode": 1,
-      "speechiness": 0.0278,
-      "acousticness": 0.279,
-      "instrumentalness": 4.25e-5,
-      "liveness": 0.159,
-      "valence": 0.544,
-      "tempo": 98.02,
-      "time_signature": 4
-    },
-    "similarity": {
-      "5sdjZMjPCBFAlxf3wIhx6I": 0.9438290040667249,
-      "7lOG0YyJVsuCd6AwCluepJ": 0.858553029512249,
-      "4hlXWrabczCCihIfdu0HXI": 0.8824343790743254,
-      "2FEFsFNzb0wrqNm4cWl7L9": 0.9633515631860555,
-      "7tUqn6cTN2BdUpvjrcPPRk": 0.8983901066329241,
-      "3KMMXYy9AtF0g1G1kOrSxZ": 0.903047265493975,
-      "2Q74eZnPKWymY7sBB6D8Iv": 0.8460746581161974,
-      "4AmaWGSQBHEVE8YlRCUVjz": 0.8450225531599302,
-      "00FQXsHzFtFZktBwJd3aPD": 0.8499007538584323,
-      "2O5ZMfWFGgtU6LAFkQAcHt": 0.9638090088450162,
-      "4JrUTZAMSXoSVlstQyaUPl": 0.7894784089036423,
-      "29KRks7DzQTdx7MnVeAgcu": 0.9142102823196951,
-      "7alTrvP5qjYSHYAiwEleem": 0.9108648078259136,
-      "4KLrFz40LRgwQUDNfW4WMK": 0.8047321227034039,
-      "6axPqIl11eWokWkD47xPSs": 0.9397292142310897,
-      "1dQ58pRYLkDqIodLSYiYse": 0.9721243825862835,
-      "2DW4hap0XvnB9cysY8Ob0W": 0.8816499693063747,
-      "0Q8q1naoaqJviTk6wLEq2y": 0.9512336459604823,
-      "7KWMkJqX8Wj2vvtnIlmAua": 0.8896685610762167,
-      "3SLzjz1deBRIGGPoW5PdmT": 0.9706167076569961,
-      "4MToZ0z5ePh2soOi7gt01f": 0.7866241668331477,
-      "2nP7FP9ztEhp2RVZuQToSe": 0.7847700887803297,
-      "56AbgLPBLFc6MfmIZEWzFH": 0.9023545224594189,
-      "4xn9dt2U6YWOcpi3gixkFI": 0.9737296942965055,
-      "3RXezEMKWrg1SRG2Um3sGj": 0.7433721568827627,
-      "3woqS0FuR2vHwDFhjuEbgv": 0.8505502932109168,
-      "2fFNNNMMsZY2e9WvW0qnZN": 0.8047537372856832,
-      "4q3oJZPFRc8kQGtPOVWHK4": 0.906670705214492,
-      "6UGmILm8rAlNV6Q0GlCS8X": 0.9506877171498926,
-      "4TWvW0JAJOFG1A8XqUPlh9": 0.8402883903283751,
-      "3NRoaDsOGaP4oE0jUhTVg9": 0.6388030296202714,
-      "75W7HntQ8nBShFZwCSH6oy": 0.8565044869314913,
-      "7gCDJ4nSuaxwYkaliOKlh8": 0.84309860599562,
-      "4JuFspWV4xxsrgPjdWPX1o": 0.902478354148491,
-      "3lWeUSAwFqNaagP5zOUFH2": 0.5336131907183959,
-      "2JuDljfyH2YCHgOHZR5E8s": 0.6431637505848525,
-      "4GOX2sBKwtZ5gGznFKoKcG": 0.9470429644155917,
-      "6RDzhx68wEgTOo0ev1FRKP": 0.9193315310694694,
-      "4UHWZrewOcXnaSYFQ5rGWe": 0.9036337575662762,
-      "5Qu6FzpZLca4ZkvuayMyw1": 0.8824343790743254,
-      "12BXHg5wTtOW9VEIgtyZ7z": 0.846063059726509,
-      "1yi4qAnqrjF4SvEGdCseWg": 0.845022992080629,
-      "0SgnOGASy4jd5dM2LpHNCK": 0.9999999999999998,
-      "3q0vhkY1bLCHTHHfkhRoJk": 0.8047321227034039
-    }
-  },
-  {
+    "album_id": "29j4TJj2VgDIl7CfxNBZ8I",
+    "album_name": "USELESS",
     "id": "3SLzjz1deBRIGGPoW5PdmT",
     "name": "ユースレス・シンフォニー",
     "preview_url": "https://p.scdn.co/mp3-preview/e8bab763e706c3481ef5a714dd6b7b0534b01abc?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1407,6 +1104,8 @@
     }
   },
   {
+    "album_id": "29j4TJj2VgDIl7CfxNBZ8I",
+    "album_name": "USELESS",
     "id": "4MToZ0z5ePh2soOi7gt01f",
     "name": "ホロウ",
     "preview_url": "https://p.scdn.co/mp3-preview/c396068419b397af50c3c5574fd1d52723cdf594?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1474,6 +1173,8 @@
     }
   },
   {
+    "album_id": "29j4TJj2VgDIl7CfxNBZ8I",
+    "album_name": "USELESS",
     "id": "2nP7FP9ztEhp2RVZuQToSe",
     "name": "Regulus",
     "preview_url": "https://p.scdn.co/mp3-preview/c80f9ff6a3640cd18492b811b3cb49660a86add7?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1541,6 +1242,8 @@
     }
   },
   {
+    "album_id": "29j4TJj2VgDIl7CfxNBZ8I",
+    "album_name": "USELESS",
     "id": "56AbgLPBLFc6MfmIZEWzFH",
     "name": "like the rain",
     "preview_url": "https://p.scdn.co/mp3-preview/ef308e4e404259b372bb92a7d1dc0d9a1b0df990?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1608,6 +1311,8 @@
     }
   },
   {
+    "album_id": "29j4TJj2VgDIl7CfxNBZ8I",
+    "album_name": "USELESS",
     "id": "4xn9dt2U6YWOcpi3gixkFI",
     "name": "Endless Summer",
     "preview_url": "https://p.scdn.co/mp3-preview/e488df63e55178d1a96a9336d4ba9bc78acdec64?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1675,6 +1380,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "3RXezEMKWrg1SRG2Um3sGj",
     "name": "White White",
     "preview_url": "https://p.scdn.co/mp3-preview/ae401442a17a98f32bd15cdb14158672640ec9a7?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1742,6 +1449,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "3woqS0FuR2vHwDFhjuEbgv",
     "name": "Stay Mellow",
     "preview_url": "https://p.scdn.co/mp3-preview/3520e471495f1f2744ce83c70a3211e8fa5d666a?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1809,6 +1518,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "2fFNNNMMsZY2e9WvW0qnZN",
     "name": "Light & Shadow",
     "preview_url": "https://p.scdn.co/mp3-preview/dc8170be884f15ebe63a918dba3dad4f046dee2b?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1876,6 +1587,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "4q3oJZPFRc8kQGtPOVWHK4",
     "name": "Fantome",
     "preview_url": "https://p.scdn.co/mp3-preview/5906aa62b09cfc761c955427115341b39314cb47?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -1943,6 +1656,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "6UGmILm8rAlNV6Q0GlCS8X",
     "name": "Answer5",
     "preview_url": "https://p.scdn.co/mp3-preview/eb76c8687f42985b9f3dcc9972c258b3f2748260?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2010,6 +1725,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "4TWvW0JAJOFG1A8XqUPlh9",
     "name": "LIFE IS MUSIC!!!!!",
     "preview_url": "https://p.scdn.co/mp3-preview/110a24d18e95f87ae33abec01ab9444c1d017363?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2077,6 +1794,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "3NRoaDsOGaP4oE0jUhTVg9",
     "name": "5:03 PM",
     "preview_url": "https://p.scdn.co/mp3-preview/a200586494893e2bdb81f1e369994a0d6244f634?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2144,6 +1863,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "75W7HntQ8nBShFZwCSH6oy",
     "name": "夕映えに紛れて",
     "preview_url": "https://p.scdn.co/mp3-preview/ae43932f8304b61dacbd3255f76955ef5715eeb6?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2211,6 +1932,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "7gCDJ4nSuaxwYkaliOKlh8",
     "name": "E△7",
     "preview_url": "https://p.scdn.co/mp3-preview/8cf3a5d36fa7f8b7649158b47780fd4626d054a2?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2278,6 +2001,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "4JuFspWV4xxsrgPjdWPX1o",
     "name": "XXXXX",
     "preview_url": "https://p.scdn.co/mp3-preview/1112c5f5722c75b6d97015d5ac59648c63870b5b?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2345,6 +2070,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "3lWeUSAwFqNaagP5zOUFH2",
     "name": "4:43 AM",
     "preview_url": "https://p.scdn.co/mp3-preview/af72e271fda6bf699f642c75e650c9b4076d39a1?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2412,6 +2139,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "2JuDljfyH2YCHgOHZR5E8s",
     "name": "曙空をみつけて",
     "preview_url": "https://p.scdn.co/mp3-preview/4f98576e1b5671c589e03d1fa5981c9711b842dd?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2479,6 +2208,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "4GOX2sBKwtZ5gGznFKoKcG",
     "name": "ilaksa",
     "preview_url": "https://p.scdn.co/mp3-preview/f039c5eb767b597c83425b363332f0b0ede47000?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2546,6 +2277,8 @@
     }
   },
   {
+    "album_id": "6t39kFCsFmjNAL7NVrbFAO",
+    "album_name": "White White",
     "id": "6RDzhx68wEgTOo0ev1FRKP",
     "name": "Saturdays",
     "preview_url": "https://p.scdn.co/mp3-preview/e250306affb1dbe8d3b5354bb13864e92ed94ab9?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2613,6 +2346,8 @@
     }
   },
   {
+    "album_id": "0uNlDKEKfMY2PiPoox3ZtP",
+    "album_name": "うらら - LIVE TOUR「2&5」 -",
     "id": "4UHWZrewOcXnaSYFQ5rGWe",
     "name": "うらら - LIVE TOUR「2&5」 -",
     "preview_url": "https://p.scdn.co/mp3-preview/4cd93e42871998e0ed25cee0522bbdb01ed70005?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2680,6 +2415,8 @@
     }
   },
   {
+    "album_id": "2UmPuQPXvhogcTWx1KyKq5",
+    "album_name": "スプレー",
     "id": "5Qu6FzpZLca4ZkvuayMyw1",
     "name": "スプレー",
     "preview_url": "https://p.scdn.co/mp3-preview/89c02340f0e3065e0d5a6b50c42de4061238e5d7?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2747,6 +2484,8 @@
     }
   },
   {
+    "album_id": "0EmSFVCjEicf7TNTpkp4QT",
+    "album_name": "まばたきの途中",
     "id": "12BXHg5wTtOW9VEIgtyZ7z",
     "name": "まばたきの途中",
     "preview_url": "https://p.scdn.co/mp3-preview/4d8f66219d7b400a4d636da869fe131aa6ac81e4?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2814,6 +2553,8 @@
     }
   },
   {
+    "album_id": "0OKqPEOv94bx7ltnLBhYli",
+    "album_name": "アカシ",
     "id": "1yi4qAnqrjF4SvEGdCseWg",
     "name": "アカシ",
     "preview_url": "https://p.scdn.co/mp3-preview/532c8d4c3e100e3e5b3f2b30d3d1d900ceb2475a?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2881,6 +2622,8 @@
     }
   },
   {
+    "album_id": "3nSRaqaCUJfxdf9coYVl1f",
+    "album_name": "おもちゃの街",
     "id": "0SgnOGASy4jd5dM2LpHNCK",
     "name": "おもちゃの街",
     "preview_url": "https://p.scdn.co/mp3-preview/ebc37fed4f22fc95530e9b80dc8c30c88d36f3e4?cid=789cbc4009cd4b20b0cded0ef827b2cc",
@@ -2948,6 +2691,8 @@
     }
   },
   {
+    "album_id": "0MNWjcB2sUQO5OV818pe90",
+    "album_name": "Halloween Knight",
     "id": "3q0vhkY1bLCHTHHfkhRoJk",
     "name": "Halloween Knight",
     "preview_url": "https://p.scdn.co/mp3-preview/8856a2859981aa591c29904b07c4b19ed526ed2f?cid=789cbc4009cd4b20b0cded0ef827b2cc",
