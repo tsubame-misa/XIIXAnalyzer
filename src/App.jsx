@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import * as d3 from "d3";
+import Header from "./components/layout/header";
 
 const RADIUS = 7.5;
 const LINK_WIDTH = 1;
@@ -74,13 +75,7 @@ function App() {
 
   return (
     <>
-      <header className="hero is-dark is-bold">
-        <div className="hero-body">
-          <div className="container">
-            <h1 className="title">XIIX Analyzer</h1>
-          </div>
-        </div>
-      </header>
+      <Header />
       <main>
         <section className="section">
           <div
