@@ -15,6 +15,10 @@ function App() {
   const [edges, setEdges] = useState([]);
   const [showInfo, setShowInfo] = useState(null);
 
+  function createEdgeId(a, b) {
+    return a["id"] + "-" + b["id"];
+  }
+
   function makeAllEdges(songs, threshold) {
     const edges = [];
     for (let i = 0; i < songs.length - 1; i++) {
@@ -23,6 +27,7 @@ function App() {
           continue;
         }
         const obj = {
+          id: createEdgeId(songs[i], songs[j]),
           source: songs[i]["id"],
           target: songs[j]["id"],
           value: songs[i]["similarity"][songs[j]["id"]],
@@ -101,7 +106,7 @@ function App() {
             style={{
               display: "flex",
               justifyContent: "center",
-              alignItems:"center"
+              alignItems: "center",
             }}
           >
             類似度の閾値を選択してください。
@@ -126,69 +131,136 @@ function App() {
               <svg height={600} width={600}>
                 <rect width={600} height={600} rx={14} fill={"#272b4d"} />
                 {edges.map((link) => {
-                  const { source, target } = link;
+                  const { id, source, target, value } = link;
+
                   const modSource = source;
                   const modTarget = target;
 
                   return (
-                    <line
-                      key={`${modSource.id}-${modTarget.id}`}
-                      stroke="white"
-                      strokeWidth={LINK_WIDTH}
-                      strokeOpacity={1}
-                      x1={modSource.x}
-                      y1={modSource.y}
-                      x2={modTarget.x}
-                      y2={modTarget.y}
-                    />
+                    <g key={id}>
+                      <line
+                        stroke="white"
+                        strokeWidth={LINK_WIDTH}
+                        strokeOpacity={1}
+                        x1={modSource.x}
+                        y1={modSource.y}
+                        x2={modTarget.x}
+                        y2={modTarget.y}
+                      />
+                      {/* ホバー時 */}
+                      {showInfo && showInfo.id === id && (
+                        <line
+                          stroke="white"
+                          strokeWidth={LINK_WIDTH + 5}
+                          strokeOpacity={0.5}
+                          x1={modSource.x}
+                          y1={modSource.y}
+                          x2={modTarget.x}
+                          y2={modTarget.y}
+                        />
+                      )}
+                      {/* 選択範囲を太くするための透かし */}
+                      <line
+                        stroke="pink"
+                        strokeWidth={LINK_WIDTH + 10}
+                        strokeOpacity={0}
+                        x1={modSource.x}
+                        y1={modSource.y}
+                        x2={modTarget.x}
+                        y2={modTarget.y}
+                        onMouseOver={() => {
+                          setShowInfo({
+                            node: false,
+                            id: createEdgeId(modSource, modTarget),
+                            name: modSource.name + ", " + modTarget.name,
+                            value: value,
+                          });
+                        }}
+                        onMouseLeave={() => {
+                          setShowInfo(null);
+                        }}
+                      />
+                    </g>
                   );
                 })}
                 {songs.map((node) => {
                   return (
-                    <circle
-                      key={node.id}
-                      r={RADIUS}
-                      stroke="none"
-                      strokeWidth={1}
-                      fill={color(node.album_name)}
-                      cx={node.x}
-                      cy={node.y}
-                      onMouseOver={() => {
-                        console.log("click", node.name);
-                        setShowInfo({
-                          name: node.name,
-                          album_name: node.album_name,
-                        });
-                      }}
-                      onMouseLeave={() => {
-                        setShowInfo(null);
-                      }}
-                      onClick={() =>
-                        window.open(
-                          node.external_urls,
-                          "_blank",
-                          "noopener noreferrer"
-                        )
-                      }
-                    />
+                    <g key={node.id}>
+                      {showInfo && showInfo.id === node.id && (
+                        <circle
+                          r={RADIUS + 2.5}
+                          stroke="none"
+                          strokeWidth={0.5}
+                          fill="white"
+                          cx={node.x}
+                          cy={node.y}
+                        />
+                      )}
+                      <circle
+                        r={RADIUS}
+                        stroke="none"
+                        strokeWidth={1}
+                        fill={color(node.album_name)}
+                        cx={node.x}
+                        cy={node.y}
+                        onMouseOver={() => {
+                          setShowInfo({
+                            node: true,
+                            id: node.id,
+                            name: node.name,
+                            album_name: node.album_name,
+                          });
+                        }}
+                        onMouseLeave={() => {
+                          setShowInfo(null);
+                        }}
+                        onClick={() =>
+                          window.open(
+                            node.external_urls,
+                            "_blank",
+                            "noopener noreferrer"
+                          )
+                        }
+                      />
+                    </g>
                   );
                 })}
-                {showInfo && (
-                  <g>
-                    <rect width={600} height={75} rx={14} fill={"#FFFFFF91"} />
-                    <text x="10" y="30" fontSize="20" fill="black">
-                      アルバム名：{showInfo.album_name}
-                    </text>
-                    <text x="10" y="60" fontSize="20" fill="black">
-                      楽曲名：{showInfo.name}
-                    </text>
-                  </g>
-                )}
+                {showInfo &&
+                  (showInfo.node ? (
+                    <g>
+                      <rect
+                        width={600}
+                        height={75}
+                        rx={14}
+                        fill={"#FFFFFF91"}
+                      />
+                      <text x="10" y="30" fontSize="20" fill="black">
+                        アルバム名：{showInfo.album_name}
+                      </text>
+                      <text x="10" y="60" fontSize="20" fill="black">
+                        楽曲名：{showInfo.name}
+                      </text>
+                    </g>
+                  ) : (
+                    <g>
+                      <rect
+                        width={600}
+                        height={75}
+                        rx={14}
+                        fill={"#FFFFFF91"}
+                      />
+                      <text x="10" y="30" fontSize="20" fill="black">
+                        類似度：{Math.round(showInfo.value * 1000) / 1000}
+                      </text>
+                      <text x="10" y="60" fontSize="20" fill="black">
+                        楽曲：{showInfo.name}
+                      </text>
+                    </g>
+                  ))}
               </svg>
 
               <svg height={600} width={300}>
                 {albums?.map((album, idx) => {
-                  console.log(idx, Math.floor(idx / 2));
                   return (
                     <g key={album}>
                       <circle
